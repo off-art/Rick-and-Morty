@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/preloader.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div id="preloader">
+    <div id="loader"></div>
+</div>
+  <div class="wrapper">
+    <div class="container">
+      <nav  class="navbar navbar-light navbar-expand-md navigation-clean-search">
+        <div id="navbar" class="container">
+          <a class="navbar-brand" href="#">
+            <div class="wrapImg">
+              <img src="img/logo.png" class="image-logo-crc" alt="">
+            </div>
+          </a>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav"></ul>
+            <form class="form-inline ml-auto form" target="_self">
+              <div class="form-group">
+                <form class="form-inline search-form">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="fa fa-search"></i></span>
+                    </div>
+                    <input class="form-control search-field name" type="text" placeholder="Найду по имени">
+                    <input class="form-control search-field species" type="text" placeholder="Найду по виду">
+                    <input class="form-control search-field type" type="text" placeholder="Найду по типу ">
+                    <div class="input-group-prepend">
+                      <span id="block" class="input-group-text block"><i class="fa fa-search"></i></span>
+                    </div>
+                    
+                  </div>
+                </form>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="search"></div>
+      <div class="loader"></div>
+      <div>
+        <div class="container">
+          <div class="row search-output">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/preloader.js"></script>
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>
