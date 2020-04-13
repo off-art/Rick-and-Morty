@@ -1,6 +1,6 @@
 # Rick and Morty
 
-![](ezgif.com-optimize (1).gif)
+![](gif.gif)
 
 [Rick and Morty](https://off-art.github.io/Rick-and-Morty/)
 
