@@ -185,6 +185,9 @@
 .search-form div.input-group-btn button:hover {
   opacity: 1;
 }
+.container {
+  padding-top: 30px;
+}
 
 .search-form div.input-group-btn button:focus:active {
   background-color: #6caee0;
