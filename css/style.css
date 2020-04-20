@@ -102,12 +102,6 @@
   transition: border-bottom-color 0.3s;
 }
 
-@media (max-width: 767px) {
-  .navigation-clean-search .form-inline .search-field {
-    display: inline-block;
-    width: 80%;
-  }
-}
 
 .heading {
   font-family: "Schoolbell", cursive;
@@ -127,10 +121,10 @@
   /* height: 100%; */
 }
 
-.image-logo-crc {
+/* .image-logo-crc {
   height: 270px;
   width: 500px;
-}
+} */
 
 .loader {
   display: none;
@@ -242,8 +236,8 @@ border-bottom-right-radius: .25rem;
 
 img {
   width: 100%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  /* border-top-right-radius: 10px; */
+  /* border-top-left-radius: 10px; */
 }
 .wrapImg {
   width: 300px;
@@ -292,7 +286,7 @@ h2 {
 }
 .row {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
@@ -345,4 +339,13 @@ tr{
   width: 250px;
 }
 
+@media (max-width: 767px) {
+  .navigation-clean-search .form-inline .search-field {
+    display: inline-block;
+    width: 80%;
+  }
+  .wrapImg {
+    width: 90%;
+  }
 
+}

@@ -163,10 +163,7 @@
                       <td class="first-crc-stat table-text-crc titletext">Origin</td>
                       <td class="table-text-crc">${character.origin.name}</td>
                   </tr>
-                  <tr>
-                      <td class="first-crc-stat table-text-crc titletext">Last location</td>
-                      <td class="table-text-crc">${character.location.name}</td>
-                  </tr>
+
               </tbody>
                   </table>
               </div>
